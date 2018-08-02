@@ -3,5 +3,7 @@
 #
 # Examples:
 #
+Movie.destroy_all
+
 Movie.create([{ title: 'Star Wars', release_year: 1980, director: 'George Lucas' }, { title: 'Le 5ème élément', release_year: 1995, director: 'Luc Besson' }, { title: 'Nikita', release_year: 1992, director: 'Luc Besson' }, { title: 'Hulk', release_year: 2010, director: 'Steven Spielberg' }, { title: 'Yes Man', release_year: 1998, director: 'Aloïse Qyborg' }])
 #   Character.create(name: 'Luke', movie: movies.first)
